@@ -435,7 +435,7 @@ int main(int argc, char *argv[])
 		while(!todoCorrecto || fase ==1){//Crear el ejercito del player 1
         {
             
-            system ("cls");
+            system ("clear");
             imprimir_galeria();
             imprimir_equipo1();
 			fflush (stdin);
@@ -479,7 +479,7 @@ int main(int argc, char *argv[])
         todoCorrecto == false;
 		while (fase==2 || todoCorrecto==false) //Crear el ejercito del player 2
         {
-			system ("cls");
+			system ("clear");
 			imprimir_galeria();
             imprimir_equipo2();
 			fflush (stdin);
@@ -520,7 +520,7 @@ int main(int argc, char *argv[])
         if (fase==3)  //luchar_1: Turno del equipo de player 1
 		{   
             
-			system ("cls");
+			system ("clear");
 			menu_campo();
 			luchar_1();
 			terminar_p1();//Funcion para que se termine el juego cuando gana player2(No funciona)
@@ -528,7 +528,7 @@ int main(int argc, char *argv[])
 		
 		if (fase==4)  //luchar_2: Turno del equipo de player 2
 		{
-			system ("cls");
+			system ("clear");
 			menu_campo();
 		    luchar_2();
             terminar_p2();//Funcion para que se termine el juego cuando gana player1(No funciona)
