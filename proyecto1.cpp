@@ -459,7 +459,7 @@ int main(int argc, char *argv[])
 				case 0: //OK. Equipo terminado
 				{
                     
-                    //Comprobar aqu� si puntos_1 es menor que 0
+                    //Comprobar aqui si puntos_1 es menor que 0
                     //Si es negativo, no le deja salir
                     if (puntos_1 >= 0){
                         
@@ -476,7 +476,7 @@ int main(int argc, char *argv[])
 			}
 		}
         }
-        todoCorrecto = false;
+        todoCorrecto == false;
 		while (fase==2 || todoCorrecto==false) //Crear el ejercito del player 2
         {
 			system ("cls");
